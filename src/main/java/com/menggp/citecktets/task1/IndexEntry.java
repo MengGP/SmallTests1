@@ -2,6 +2,11 @@ package com.menggp.citecktets.task1;
 
 import java.util.Comparator;
 
+/*
+    Класс - для хранения записей индекса элементтов
+        ключ - элемент массива (исходного)
+        значение - количество вхождений элемента
+ */
 public class IndexEntry {
     private int key;
     private int value;
